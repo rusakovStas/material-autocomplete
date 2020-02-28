@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/material-autocomplete/static/css/main.d1b05096.chunk.css",
-    "main.js": "/material-autocomplete/static/js/main.b36c185e.chunk.js",
-    "main.js.map": "/material-autocomplete/static/js/main.b36c185e.chunk.js.map",
-    "runtime-main.js": "/material-autocomplete/static/js/runtime-main.7d760749.js",
-    "runtime-main.js.map": "/material-autocomplete/static/js/runtime-main.7d760749.js.map",
-    "static/js/2.9cb95fb5.chunk.js": "/material-autocomplete/static/js/2.9cb95fb5.chunk.js",
-    "static/js/2.9cb95fb5.chunk.js.map": "/material-autocomplete/static/js/2.9cb95fb5.chunk.js.map",
+    "main.css": "/material-autocomplete/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/material-autocomplete/static/js/main.0afb095e.chunk.js",
+    "main.js.map": "/material-autocomplete/static/js/main.0afb095e.chunk.js.map",
+    "runtime-main.js": "/material-autocomplete/static/js/runtime-main.135a095a.js",
+    "runtime-main.js.map": "/material-autocomplete/static/js/runtime-main.135a095a.js.map",
+    "static/js/2.c9881b13.chunk.js": "/material-autocomplete/static/js/2.c9881b13.chunk.js",
+    "static/js/2.c9881b13.chunk.js.map": "/material-autocomplete/static/js/2.c9881b13.chunk.js.map",
     "index.html": "/material-autocomplete/index.html",
-    "precache-manifest.7ff9ff9ecb58d76cf8d863cd7550df49.js": "/material-autocomplete/precache-manifest.7ff9ff9ecb58d76cf8d863cd7550df49.js",
+    "precache-manifest.91999bbde329140adafdebf6dbcffa6a.js": "/material-autocomplete/precache-manifest.91999bbde329140adafdebf6dbcffa6a.js",
     "service-worker.js": "/material-autocomplete/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/material-autocomplete/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.9cb95fb5.chunk.js.LICENSE.txt": "/material-autocomplete/static/js/2.9cb95fb5.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/material-autocomplete/static/media/logo.5d5d9eef.svg"
+    "static/css/main.5ecd60fb.chunk.css.map": "/material-autocomplete/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.c9881b13.chunk.js.LICENSE.txt": "/material-autocomplete/static/js/2.c9881b13.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d760749.js",
-    "static/js/2.9cb95fb5.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.b36c185e.chunk.js"
+    "static/js/runtime-main.135a095a.js",
+    "static/js/2.c9881b13.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.0afb095e.chunk.js"
   ]
 }
