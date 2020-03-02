@@ -167,6 +167,7 @@ function App() {
            <Grid item xs={12}>
                <TextField
                    label="Поле с форматированием"
+                   fullWidth
                    value={value}
                    onChange={event => setValue(event.target.value)}
                    InputProps={{
