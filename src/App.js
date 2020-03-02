@@ -110,6 +110,7 @@ const top100Films = [
 
 function App() {
     const [success, setSuccess] = useState(false);
+    const [value, setValue] = useState("");
 
   return (
    <React.Fragment>
@@ -117,6 +118,9 @@ function App() {
        <Grid container justify="center" alignItems="center" style={{height: "60vh"}}>
            <Grid item xs={12}>
                {success && <Typography color={"primary"}>Поймали логику!</Typography>}
+           </Grid>
+           <Grid item xs={12}>
+               {value !== "" && <Typography color={"primary"}>Установили значение</Typography>}
            </Grid>
          <Grid item xs={12}>
              <Autocomplete
@@ -138,6 +142,13 @@ function App() {
                  )}
              />
          </Grid>
+           <Grid item xs={12}>
+               <TextField
+                   label="Сумма"
+                   value={value}
+                   onChange={event => setValue(event.target.value)}
+               />
+           </Grid>
        </Grid>
      </Container>
    </React.Fragment>
