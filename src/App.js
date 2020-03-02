@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Container} from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import Autocomplete from "@material-ui/lab/Autocomplete";
+import NumberFormat from "react-number-format";
 import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 
@@ -108,6 +109,27 @@ const top100Films = [
     { title: 'Monty Python and the Holy Grail', year: 1975 },
 ];
 
+function NumberFormatCustom(props) {
+    const { inputRef, onChange, ...other } = props;
+
+    return (
+        <NumberFormat
+            {...other}
+            getInputRef={inputRef}
+            onValueChange={values => {
+                onChange({
+                    target: {
+                        value: values.value
+                    }
+                });
+            }}
+            thousandSeparator={" "}
+            decimalSeparator={","}
+            isNumericString
+        />
+    );
+}
+
 function App() {
     const [success, setSuccess] = useState(false);
     const [value, setValue] = useState("");
@@ -144,9 +166,13 @@ function App() {
          </Grid>
            <Grid item xs={12}>
                <TextField
-                   label="Сумма"
+                   label="Поле с форматированием"
                    value={value}
                    onChange={event => setValue(event.target.value)}
+                   InputProps={{
+                       inputComponent: NumberFormatCustom,
+                       inputProps: { decimalScale: 2 }
+                   }}
                />
            </Grid>
        </Grid>
