@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/material-autocomplete/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/material-autocomplete/static/js/main.7990e673.chunk.js",
-    "main.js.map": "/material-autocomplete/static/js/main.7990e673.chunk.js.map",
+    "main.js": "/material-autocomplete/static/js/main.d96052cd.chunk.js",
+    "main.js.map": "/material-autocomplete/static/js/main.d96052cd.chunk.js.map",
     "runtime-main.js": "/material-autocomplete/static/js/runtime-main.135a095a.js",
     "runtime-main.js.map": "/material-autocomplete/static/js/runtime-main.135a095a.js.map",
     "static/js/2.815df31f.chunk.js": "/material-autocomplete/static/js/2.815df31f.chunk.js",
     "static/js/2.815df31f.chunk.js.map": "/material-autocomplete/static/js/2.815df31f.chunk.js.map",
     "index.html": "/material-autocomplete/index.html",
-    "precache-manifest.19e5b3e2d1e4db741e31b1234dfcd8c1.js": "/material-autocomplete/precache-manifest.19e5b3e2d1e4db741e31b1234dfcd8c1.js",
+    "precache-manifest.fc758fd091e856200207524ca5cbb9f3.js": "/material-autocomplete/precache-manifest.fc758fd091e856200207524ca5cbb9f3.js",
     "service-worker.js": "/material-autocomplete/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/material-autocomplete/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.815df31f.chunk.js.LICENSE.txt": "/material-autocomplete/static/js/2.815df31f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.135a095a.js",
     "static/js/2.815df31f.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7990e673.chunk.js"
+    "static/js/main.d96052cd.chunk.js"
   ]
 }
